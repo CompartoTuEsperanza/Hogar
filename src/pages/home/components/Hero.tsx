@@ -59,18 +59,18 @@ const Hero = () => {
         <h1 className="mb-8 inline-block leading-none">
           <span style={{
             display: 'block',
-            fontFamily: "'Poiret One', sans-serif",
+            fontFamily: "'Josefin Sans', sans-serif",
             fontSize: 'clamp(3rem,8vw,6.5rem)',
-            fontWeight: 400,
+            fontWeight: 100,
             letterSpacing: '0.3em',
             color: '#8B1A2E',
             lineHeight: 1,
           }}>PACHA</span>
           <span style={{
             display: 'block',
-            fontFamily: "'Poiret One', sans-serif",
+            fontFamily: "'Josefin Sans', sans-serif",
             fontSize: 'clamp(0.9rem,2.2vw,1.8rem)',
-            fontWeight: 400,
+            fontWeight: 100,
             letterSpacing: '0.6em',
             color: '#8B1A2E',
             textTransform: 'uppercase',
