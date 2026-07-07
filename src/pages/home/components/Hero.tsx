@@ -59,21 +59,20 @@ const Hero = () => {
         <h1 className="mb-8 inline-block leading-none">
           <span style={{
             display: 'block',
-            fontFamily: "'Cinzel', serif",
+            fontFamily: "'Raleway', sans-serif",
             fontSize: 'clamp(3rem,8vw,6.5rem)',
             fontWeight: 900,
             letterSpacing: '0.2em',
             color: '#8B1A2E',
-            textShadow: '0 0 40px rgba(139,26,46,0.6), 0 2px 8px rgba(0,0,0,0.8)',
             lineHeight: 1,
           }}>PACHA</span>
           <span style={{
             display: 'block',
-            fontFamily: "'Cinzel', serif",
+            fontFamily: "'Raleway', sans-serif",
             fontSize: 'clamp(0.9rem,2.2vw,1.8rem)',
             fontWeight: 400,
             letterSpacing: '0.55em',
-            color: '#D4A843',
+            color: '#8B1A2E',
             textTransform: 'uppercase',
             marginTop: '0.15em',
             lineHeight: 1,
