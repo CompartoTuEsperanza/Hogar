@@ -63,7 +63,7 @@ const Hero = () => {
             fontSize: 'clamp(3rem,8vw,6.5rem)',
             fontWeight: 100,
             letterSpacing: '0.3em',
-            color: '#8B1A2E',
+            color: '#D4A843',
             lineHeight: 1,
           }}>PΛCHΛ</span>
           <span style={{
@@ -71,8 +71,10 @@ const Hero = () => {
             fontFamily: "'Josefin Sans', sans-serif",
             fontSize: 'clamp(0.9rem,2.2vw,1.8rem)',
             fontWeight: 100,
-            letterSpacing: '0.6em',
-            color: '#8B1A2E',
+            letterSpacing: '0.55em',
+            color: '#D4A843',
+            textAlign: 'center',
+            width: '100%',
             textTransform: 'uppercase',
             marginTop: '0.15em',
             lineHeight: 1,
