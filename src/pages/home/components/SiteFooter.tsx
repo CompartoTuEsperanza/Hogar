@@ -11,18 +11,9 @@ const SiteFooter = () => {
 
         {/* LEFT: brand */}
         <div>
-          <div
-            className="font-serif uppercase mb-3"
-            style={{
-              fontFamily: "'Josefin Sans', sans-serif",
-              fontWeight: 900,
-              fontSize: 'clamp(1.4rem, 2.6vw, 2rem)',
-              letterSpacing: '0.04em',
-                            textShadow: '0 0 30px rgba(212,168,67,0.4)',
-              filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.6))',
-            }}
-          >
-            Comparto tu Esperanza
+          <div className="mb-3">
+            <span style={{ display: 'block', fontFamily: "'Josefin Sans', sans-serif", fontWeight: 100, fontSize: 'clamp(2rem, 4vw, 3rem)', letterSpacing: '0.25em', color: '#FFD700', textTransform: 'uppercase', lineHeight: 1 }}>PΛCHΛ</span>
+            <span style={{ display: 'block', fontFamily: "'Josefin Sans', sans-serif", fontWeight: 100, fontSize: 'clamp(0.7rem, 1.4vw, 1rem)', letterSpacing: '0.55em', color: '#FFD700', textTransform: 'uppercase', marginTop: '0.1em' }}>ESPERANZA</span>
           </div>
           <p
             className="text-sm leading-relaxed whitespace-pre-line"
@@ -84,7 +75,7 @@ const SiteFooter = () => {
         </div>
       </div>
       <div className="relative z-10 max-w-6xl mx-auto flex justify-center items-center pt-8">
-        <p className="text-xs" style={{ fontFamily: "'Josefin Sans', sans-serif", fontWeight: 600, color: 'rgba(255,215,0,0.45)' }}>
+        <p className="text-xs" style={{ fontFamily: "'Josefin Sans', sans-serif", fontWeight: 600, color: '#FFD700' }}>
           {t('footer_copyright')}
         </p>
       </div>
