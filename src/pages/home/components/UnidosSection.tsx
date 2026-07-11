@@ -47,7 +47,7 @@ export default function UnidosSection() {
       {/* Fondo sin overlay */}
       <div
         className="absolute inset-0 bg-center bg-cover pointer-events-none"
-        style={{ backgroundImage: 'url(/Hogar/images/fondoo.jpeg)' }}
+        style={{ backgroundImage: 'url(/Hogar/images/fondo.jpg)' }}
       />
       {/* Overlay mínimo marrón */}
       <div
