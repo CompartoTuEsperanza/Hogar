@@ -67,6 +67,11 @@ const Navbar = ({ cartCount, onCartOpen }: NavbarProps) => {
       >
         <div className="w-full px-4 h-16 flex items-center justify-between gap-3">
 
+          {/* Logo desktop */}
+          <div className="hidden md:flex items-center flex-shrink-0">
+            <img src="/Hogar/images/logo-hojas.png" alt="Pacha Esperanza" style={{ height: '38px', width: 'auto', objectFit: 'contain' }} />
+          </div>
+
           {/* Links desktop */}
           <ul className="hidden md:flex items-center gap-4 flex-1 justify-center">
             {links.map((l) => (
@@ -84,8 +89,8 @@ const Navbar = ({ cartCount, onCartOpen }: NavbarProps) => {
                     {/* Banderas desktop */}
           <div className="hidden md:flex items-center gap-1.5">
             <style>{`
-              @keyframes wave-pe { 0%,100%{transform:rotate(-6deg)} 50%{transform:rotate(-2deg)} }
-              @keyframes wave-cz { 0%,100%{transform:rotate(6deg)} 50%{transform:rotate(2deg)} }
+              @keyframes wave-pe { 0%,100%{transform:rotate(-18deg) scale(1.04)} 50%{transform:rotate(4deg) scale(0.97)} }
+              @keyframes wave-cz { 0%,100%{transform:rotate(18deg) scale(1.04)} 50%{transform:rotate(-4deg) scale(0.97)} }
             `}</style>
             <img src="https://flagcdn.com/w40/pe.png" alt="Peru" className="w-9 h-6 rounded-sm object-cover shadow-sm" style={{ animation: 'wave-pe 2s ease-in-out infinite', transformOrigin: 'left center' }} />
             <img src="https://flagcdn.com/w40/cz.png" alt="Czech Republic" className="w-9 h-6 rounded-sm object-cover shadow-sm" style={{ animation: 'wave-cz 2s ease-in-out infinite', transformOrigin: 'right center' }} />
@@ -155,6 +160,7 @@ const Navbar = ({ cartCount, onCartOpen }: NavbarProps) => {
               )}
             </div>
 
+            <img src="/Hogar/images/logo-hojas.png" alt="Pacha Esperanza" style={{ height: '30px', width: 'auto', objectFit: 'contain' }} />
             <button className="w-9 h-9 flex items-center justify-center cursor-pointer" onClick={() => setMobOpen(true)}>
               <i className="ri-menu-line text-cream text-xl" />
             </button>
