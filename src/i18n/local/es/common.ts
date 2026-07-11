@@ -8,7 +8,7 @@ const es = {
 
   // Hero
   hero_eyebrow: "Café de Especialidad · Cusco · Perú",
-  hero_subtitle: "Esto no es solo Café. Es la promesa de que nunca más serán olvidados.",
+  hero_subtitle: "Esto no es solo Café, Es la promesa de que nunca más serán olvidados",
   hero_desc: "Café de Especialidad del Cusco. Cosechado por familias que volvieron a creer y transformado en granos de pura esperanza. Desde nuestra sucursal en la República Checa, abrimos los brazos a Europa para entregar este tesoro seco, asegurando que cada rincón del continente reciba sus nombres, su lucha y sus historias intactas.",
   hero_cta_primary: 'GENERAR IMPACTO',
   hero_cta_secondary: 'Nuestros Productores',

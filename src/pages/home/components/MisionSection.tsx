@@ -6,7 +6,7 @@ const IMAGES = [
   '/Hogar/images/mision2.png',
 ];
 
-const AUTOPLAY_MS = 4500;
+const AUTOPLAY_MS = 9000;
 
 
 
@@ -75,11 +75,11 @@ const MisionSection = () => {
           >
             {/* Header encima del carrusel */}
             <div className="mb-6">
-              <p className="text-gold text-xs tracking-[0.4em] uppercase font-sans mb-3">
+              <p className="text-xs tracking-[0.4em] uppercase font-sans mb-3" style={{ background: 'linear-gradient(90deg,#FFD700,#FFEE00,#FFD700)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', WebkitTextStroke: '0.6px #FFD700' }}>
                 {t('mision_eyebrow')}
               </p>
               <h2
-                className="text-4xl md:text-5xl text-cream mb-3 max-w-md uppercase"
+                className="text-xl md:text-2xl text-cream mb-3 max-w-md uppercase"
                 style={{ fontFamily: "'Josefin Sans', sans-serif", fontWeight: 100, lineHeight: 1.15, letterSpacing: '0.1em' }}
               >
                 {t('mision_title')}
