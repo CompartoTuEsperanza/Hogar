@@ -161,7 +161,7 @@ const Manifesto = () => {
                       <p
                         className="leading-tight mb-4 inline-block uppercase"
                         style={{
-                          fontFamily: "'Cormorant Garamond', serif",
+                          fontFamily: "'Josefin Sans', sans-serif",
                           fontSize: 'clamp(1.5rem, 3.3vw, 2.3rem)',
                           letterSpacing: '0.08em',
                           fontWeight: 500,
@@ -169,7 +169,8 @@ const Manifesto = () => {
                           WebkitTextStroke: '0.3px #D4A843',
                         }}
                       >
-                        Comparto tu Esperanza
+                        <span style={{ display:'block', fontFamily:"'Josefin Sans',sans-serif", fontWeight:100, letterSpacing:'0.25em', background:'linear-gradient(90deg,#FFD700,#FFEE00,#FFD700)', WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent', backgroundClip:'text', WebkitTextStroke:'0.6px #FFD700' }}>PΛCHΛ</span>
+                        <span style={{ display:'block', fontFamily:"'Josefin Sans',sans-serif", fontWeight:100, fontSize:'0.7em', letterSpacing:'0.55em', background:'linear-gradient(90deg,#FFD700,#FFEE00,#FFD700)', WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent', backgroundClip:'text' }}>ESPERANZA</span>
                       </p>
                       <p className="text-cream/80 font-serif text-sm leading-relaxed rounded-2xl p-5" style={{ background: 'rgba(20,10,5,0.55)', backdropFilter: 'blur(12px)', border: '1px solid rgba(201,168,76,0.15)' }}>
                         {parts[1]}

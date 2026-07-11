@@ -62,7 +62,7 @@ export default function UnidosSection() {
           <p style={{
             fontFamily: "'Playfair Display', serif",
             fontStyle: 'italic',
-            fontWeight: 800,
+            fontWeight: 400,
             fontSize: 'clamp(1.1rem, 2.2vw, 2.2rem)',
             color: '#C9A84C',
             lineHeight: 1.25,
@@ -72,11 +72,11 @@ export default function UnidosSection() {
             {t('unidos_frase')}
           </p>
           <h2 style={{
-            fontFamily: "'Playfair Display', serif",
-            fontWeight: 900,
+            fontFamily: "'Josefin Sans', sans-serif",
+            fontWeight: 100,
             fontSize: 'clamp(2rem, 4vw, 3.5rem)',
             color: '#fff8f0',
-            lineHeight: 1.15,
+            lineHeight: 1.15, letterSpacing: '0.1em',
           }}>
             {t('unidos_title')}
           </h2>
@@ -88,7 +88,7 @@ export default function UnidosSection() {
               display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
               background: 'linear-gradient(135deg, #5A0D1E 0%, #7A1D2E 100%)',
               color: '#fff',
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Josefin Sans', sans-serif",
               fontWeight: 700,
               fontSize: '0.78rem',
               letterSpacing: '0.06em',
@@ -150,7 +150,7 @@ export default function UnidosSection() {
                       </div>
                     )}
                     <p style={{
-                      fontFamily: "'Playfair Display', serif",
+                      fontFamily: "'Josefin Sans', sans-serif",
                       color: isCenter ? 'rgba(255,248,240,0.92)' : 'rgba(255,248,240,0.55)',
                       fontSize: isCenter ? '0.9rem' : '0.72rem',
                       lineHeight: 1.8,
@@ -162,7 +162,7 @@ export default function UnidosSection() {
                       {text}
                       {isLastAndCenter && (
                         <span style={{
-                          fontFamily: "'Playfair Display', serif",
+                          fontFamily: "'Josefin Sans', sans-serif",
                           fontStyle: 'italic',
                           fontWeight: 900,
                           fontSize: '1.15rem',

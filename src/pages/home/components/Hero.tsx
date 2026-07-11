@@ -63,8 +63,7 @@ const Hero = () => {
             fontSize: 'clamp(3rem,8vw,6.5rem)',
             fontWeight: 100,
             letterSpacing: '0.3em',
-            color: '#D4A843',
-            lineHeight: 1,
+            lineHeight: 1, background: 'linear-gradient(90deg,#FFD700,#FFEE00,#FFD700)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', WebkitTextStroke: '0.6px #FFD700',
           }}>PΛCHΛ</span>
           <span style={{
             display: 'block',
@@ -113,7 +112,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4">
           <button
             onClick={() => scrollTo('historia')}
-            className="text-cream font-black px-8 py-3.5 rounded-full text-sm tracking-widest uppercase transition-colors cursor-pointer whitespace-nowrap"
+            className="text-cream font-bold px-8 py-3.5 rounded-full text-sm tracking-widest uppercase transition-colors cursor-pointer whitespace-nowrap"
             style={{ fontFamily: "'Josefin Sans', sans-serif", background: '#5C1422' }}
           >
             CONOCE MÁS

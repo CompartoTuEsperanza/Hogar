@@ -145,11 +145,11 @@ const HistoriaSection = () => {
           <div style={fadeLeft}>
             <h2 style={{
               fontFamily: "'Josefin Sans', sans-serif", fontWeight: 100,
-              fontSize: 'clamp(1.8rem,3.5vw,2.8rem)', color: '#fff8f0',
-              lineHeight: 1.15, marginBottom: '0.4rem', letterSpacing: '0.15em',
-              textTransform: 'uppercase', textAlign: 'center',
+              fontSize: 'clamp(0.9rem,2.2vw,2rem)', color: '#fff8f0',
+              lineHeight: 1.15, marginBottom: '0.4rem', letterSpacing: '0.1em',
+              textTransform: 'uppercase', textAlign: 'center', whiteSpace: 'nowrap',
             }}>
-              {t('historia_title_line1')}<br />{t('historia_title_line2')}
+              {t('historia_title_line1')} {t('historia_title_line2')}
             </h2>
             <div style={{ height: '2px', width: '60px', background: 'linear-gradient(90deg,#7A1D2E,transparent)', marginBottom: '1.2rem', margin: '0.4rem auto 1.2rem' }} />
             <Carrusel cards={cards1} pressLabel={pressLabel} />
@@ -181,11 +181,11 @@ const HistoriaSection = () => {
         {/* Frase final */}
         <div style={{ textAlign: 'center', marginTop: '3rem', paddingBottom: '1rem' }}>
           <p style={{
-            fontFamily: "'Josefin Sans', sans-serif",
-            fontStyle: 'italic', fontWeight: 700,
+            fontFamily: "'Playfair Display', serif",
+            fontStyle: 'italic', fontWeight: 400,
             fontSize: 'clamp(1.2rem, 2.8vw, 2rem)',
             color: 'rgba(255,248,240,0.92)',
-            letterSpacing: '0.03em', lineHeight: 1.3,
+            letterSpacing: '0.02em', lineHeight: 1.5,
             textShadow: '0 2px 12px rgba(0,0,0,0.6)',
           }}>
             "{t('historia_frase')}"
