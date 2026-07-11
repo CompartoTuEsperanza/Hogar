@@ -6,7 +6,6 @@ import Hero from './components/Hero';
 import Manifesto from './components/Manifesto';
 import UnidosSection from './components/UnidosSection';
 import MisionSection from './components/MisionSection';
-import VisionSection from './components/VisionSection';
 // import Products from './components/Products';
 // import ImpactSlider from './components/ImpactSlider';
 // import Reviews from './components/Reviews';
@@ -74,7 +73,6 @@ const HomePage = () => {
       <Manifesto />
       <UnidosSection />
       <MisionSection />
-      <VisionSection />
       {/* <ImpactSlider /> */}
       {/* <Products onAddToCart={handleAddToCart} /> */}
        {/* <Reviews /> */}
