@@ -74,9 +74,10 @@ export default function UnidosSection() {
           <h2 style={{
             fontFamily: "'Josefin Sans', sans-serif",
             fontWeight: 100,
-            fontSize: 'clamp(2rem, 4vw, 3.5rem)',
-            color: '#fff8f0',
-            lineHeight: 1.15, letterSpacing: '0.1em',
+            fontSize: 'clamp(1.4rem, 3vw, 2.8rem)',
+            lineHeight: 1.3, letterSpacing: '0.1em',
+            background: 'linear-gradient(90deg,#FFD700,#FFEE00,#FFD700)',
+            WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text',
           }}>
             {t('unidos_title')}
           </h2>
