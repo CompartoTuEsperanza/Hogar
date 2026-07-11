@@ -22,9 +22,9 @@ const ProcessSection = () => {
       <div className="relative max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-10">
-          <p className="text-gold text-xs tracking-[0.4em] uppercase font-sans mb-3">{t('process_eyebrow')}</p>
-          <h2 className="text-3xl md:text-4xl text-cream leading-tight">
-            {t('process_title')} <em className="text-gold italic">{t('process_title_highlight')}</em>
+          <p className="text-xs tracking-[0.4em] uppercase font-sans mb-3" style={{ background: 'linear-gradient(90deg,#FFD700,#FFEE00,#FFD700)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', WebkitTextStroke: '0.6px #FFD700' }}>{t('process_eyebrow')}</p>
+          <h2 className="text-3xl md:text-4xl text-cream leading-tight" style={{ fontFamily: "'Josefin Sans', sans-serif", fontWeight: 100, letterSpacing: '0.1em', textTransform: 'uppercase' }}>
+            {t('process_title')} <em style={{ fontFamily: "'Playfair Display', serif", fontStyle: 'italic', fontWeight: 700, textTransform: 'lowercase', background: 'linear-gradient(90deg,#FFD700,#FFEE00,#FFD700)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>{t('process_title_highlight')}</em>
           </h2>
         </div>
 
