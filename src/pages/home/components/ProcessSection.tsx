@@ -8,15 +8,15 @@ const ProcessSection = () => {
 
   return (
     <section id="process" className="relative bg-coffee-900 py-14 px-6 overflow-hidden">
-      {/* Background */}
+      {/* Background video */}
       <div className="absolute inset-0">
-        <img
-          src="/Hogar/images/product1.jpeg"
-          alt="background"
+        <video
+          autoPlay muted loop playsInline
           className="w-full h-full object-cover object-center"
-        />
-        <div className="absolute inset-0 bg-coffee-900/92" />
-        <div className="absolute inset-0 bg-amber-950/25" />
+        >
+          <source src="/Hogar/videos/video.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-coffee-900/85" />
       </div>
 
       <div className="relative max-w-7xl mx-auto">
