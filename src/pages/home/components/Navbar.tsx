@@ -63,7 +63,7 @@ const Navbar = ({ cartCount, onCartOpen }: NavbarProps) => {
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
           scrolled ? 'backdrop-blur-sm border-b border-gold/10' : 'bg-transparent'
         }`}
-        style={{ background: scrolled ? 'rgba(60,10,20,0.97)' : 'transparent' }}
+        style={{ background: scrolled ? 'rgba(146,17,15,0.97)' : 'transparent' }}
       >
         <div className="w-full px-4 h-16 flex items-center justify-between gap-3">
 
@@ -92,8 +92,8 @@ const Navbar = ({ cartCount, onCartOpen }: NavbarProps) => {
               @keyframes wave-pe { 0%,100%{transform:rotate(-18deg) scale(1.04)} 50%{transform:rotate(4deg) scale(0.97)} }
               @keyframes wave-cz { 0%,100%{transform:rotate(18deg) scale(1.04)} 50%{transform:rotate(-4deg) scale(0.97)} }
             `}</style>
-            <img src="https://flagcdn.com/w40/pe.png" alt="Peru" className="w-9 h-6 rounded-sm object-cover shadow-sm" style={{ animation: 'wave-pe 2s ease-in-out infinite', transformOrigin: 'left center' }} />
-            <img src="https://flagcdn.com/w40/cz.png" alt="Czech Republic" className="w-9 h-6 rounded-sm object-cover shadow-sm" style={{ animation: 'wave-cz 2s ease-in-out infinite', transformOrigin: 'right center' }} />
+            <img src="https://flagcdn.com/w40/pe.png" alt="Peru" className="w-9 h-6 rounded-sm object-cover shadow-sm" style={{ animation: 'wave-pe 2s ease-in-out infinite', transformOrigin: 'left center', filter: 'saturate(1.9) brightness(1.15) contrast(1.1)' }} />
+            <img src="https://flagcdn.com/w40/cz.png" alt="Czech Republic" className="w-9 h-6 rounded-sm object-cover shadow-sm" style={{ animation: 'wave-cz 2s ease-in-out infinite', transformOrigin: 'right center', filter: 'saturate(1.9) brightness(1.15) contrast(1.1)' }} />
           </div>
 
           {/* Selector idioma desktop */}
@@ -107,7 +107,7 @@ const Navbar = ({ cartCount, onCartOpen }: NavbarProps) => {
               <i className={`ri-arrow-down-s-line text-sm transition-transform duration-200 ${langOpen ? 'rotate-180' : ''}`} />
             </button>
             {langOpen && (
-              <div className="absolute right-0 top-full mt-2 bg-coffee-900 border border-gold/20 rounded-lg overflow-hidden shadow-xl min-w-[140px]">
+              <div className="absolute right-0 top-full mt-2 border border-gold/20 rounded-lg overflow-hidden shadow-xl min-w-[140px]" style={{ background: "#92110F" }}>
                 {LANGUAGES.map((lang) => (
                   <button
                     key={lang.code}
@@ -128,8 +128,8 @@ const Navbar = ({ cartCount, onCartOpen }: NavbarProps) => {
           {/* Mobile: banderas + idioma + hamburguesa */}
           <div className="md:hidden flex items-center gap-2">
             <div className="flex items-center gap-1">
-              <img src="https://flagcdn.com/w40/pe.png" alt="Peru" className="w-6 h-4 rounded-sm object-cover" style={{ animation: 'wave-pe 2s ease-in-out infinite', transformOrigin: 'left center' }} />
-              <img src="https://flagcdn.com/w40/cz.png" alt="Czech" className="w-6 h-4 rounded-sm object-cover" style={{ animation: 'wave-cz 2s ease-in-out infinite', transformOrigin: 'right center' }} />
+              <img src="https://flagcdn.com/w40/pe.png" alt="Peru" className="w-6 h-4 rounded-sm object-cover" style={{ animation: 'wave-pe 2s ease-in-out infinite', transformOrigin: 'left center', filter: 'saturate(1.9) brightness(1.15) contrast(1.1)' }} />
+              <img src="https://flagcdn.com/w40/cz.png" alt="Czech" className="w-6 h-4 rounded-sm object-cover" style={{ animation: 'wave-cz 2s ease-in-out infinite', transformOrigin: 'right center', filter: 'saturate(1.9) brightness(1.15) contrast(1.1)' }} />
             </div>
 
             <div ref={mobileLangRef} className="relative">
@@ -142,7 +142,7 @@ const Navbar = ({ cartCount, onCartOpen }: NavbarProps) => {
                 <i className={`ri-arrow-down-s-line text-sm transition-transform ${mobileLangOpen ? 'rotate-180' : ''}`} />
               </button>
               {mobileLangOpen && (
-                <div className="absolute right-0 top-full mt-2 bg-coffee-900 border border-gold/20 rounded-xl overflow-hidden z-[60]" style={{ minWidth: 130, boxShadow: '0 12px 40px rgba(0,0,0,0.5)' }}>
+                <div className="absolute right-0 top-full mt-2 border border-gold/20 rounded-xl overflow-hidden z-[60]" style={{ minWidth: 130, boxShadow: '0 12px 40px rgba(0,0,0,0.5)', background: "#92110F" }}>
                   {LANGUAGES.map((lang) => (
                     <button
                       key={lang.code}
@@ -172,7 +172,7 @@ const Navbar = ({ cartCount, onCartOpen }: NavbarProps) => {
       {/* Mobile menu */}
       <div className={`fixed inset-0 z-50 transition-all duration-300 md:hidden ${mobOpen ? 'visible opacity-100' : 'invisible opacity-0'}`}>
         <div className="absolute inset-0 bg-black/60" onClick={() => setMobOpen(false)} />
-        <div className={`absolute top-0 right-0 w-72 h-full bg-coffee-800 transition-transform duration-300 ${mobOpen ? 'translate-x-0' : 'translate-x-full'} flex flex-col p-8`}>
+        <div className={`absolute top-0 right-0 w-72 h-full transition-transform duration-300 ${mobOpen ? 'translate-x-0' : 'translate-x-full'} flex flex-col p-8`} style={{ background: "#92110F" }}>
           <button onClick={() => setMobOpen(false)} className="self-end mb-8 w-9 h-9 flex items-center justify-center cursor-pointer">
             <i className="ri-close-line text-cream text-2xl" />
           </button>
